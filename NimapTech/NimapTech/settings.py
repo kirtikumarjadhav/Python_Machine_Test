@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'nimaptech',       
         'USER': 'Nimapinfotech',    
         'PASSWORD': 'Kumar@8805', 
-        'HOST': 'Localhost',               
+        'HOST': 'localhost',               
         'PORT': '3306',                   
     }
 }
@@ -94,7 +94,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
     ],
-    # Other settings...
+    
 }
 
 
